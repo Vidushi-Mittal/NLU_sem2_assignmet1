@@ -84,7 +84,7 @@ def compare_models(X_train, X_test, y_train, y_test):
     classifiers = {
         "Naive Bayes": MultinomialNB(),
         "Logistic Regression": LogisticRegression(max_iter=1050),
-        "Linear SVM": LinearSVC(random_state=42,dual='auto', max_iter=1050),
+        "Linear SVM": LinearSVC(random_state=42, max_iter=1050),
         "Random Forest": RandomForestClassifier(n_estimators=100, random_state=42),
         "K-Nearest Neighbors": KNeighborsClassifier(n_neighbors=5)
     }
