@@ -8,8 +8,7 @@ This project implements a machine learning system to classify text documents int
  **Source:** [20 Newsgroups Dataset](http://qwone.com/~jason/20Newsgroups/) (via Scikit-learn)
  **Categories Used:**
     * **Sports:** `rec.sport.baseball`, `rec.sport.hockey`
-    * **Politics:** `talk.politics.guns`, `talk.politics.mideast`, `talk.politics.misc`
-* **Preprocessing:** Headers, footers, and quotes were stripped to ensure classification based purely on content.
+    * **Politics:** `talk.politics.guns`, `talk.politics.mideast`, `talk.politics.misc`.
 
 # 🛠️ Techniques & Models
 * **Feature Extraction:** CountVectorizer (Bag of Words)
